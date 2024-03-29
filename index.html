@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grand Tour</title>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link rel="stylesheet" href="styles/style.css">
+
+
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script>
+    // Função para inicializar o carousel quando a página carregar
+    $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+  </script>
+  
+</head>
+
+<body>
+  <header>
+    <nav>
+      <p>Grand Tour</p>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#pacotes">Pacotes</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#carousell">Destinos</a></li>
+      </ul>
+    </nav>
+    
+    
+
+    <div  id="home" class="header-content">
+      <h1>Machu Picchu</h1>
+      <p>Conheça Machu Picchu, e viva aventuras extraodinarias, o embarque está proximo, junte-se a nós nessa experiência</p>
+      <button>Saiba mais</button>
+    </div>
+  </header>
+
+  <section id="pacotes" class="pacotes">
+    <h1 class="servicos-titulo">Conheça nossos pacotes</h1>
+
+    <div class="pacotes-cards">
+      <div class="card">
+        <div class="card-tag card-tag-top">
+          <p>Promoção</p>
+        </div>
+        <div class="card-tag card-tag-bottom">
+          <p>R$ 1500,00</p>
+        </div>
+        <img class="card-image" src="img/paris.jpeg" alt="Paris">
+        <div class="card-content">
+          <h1>Pacote 5 noites hotel premium</h1>
+          <ul>
+            <li><i data-feather="coffee"></i>Café da manhã incluso</li>
+            <li><i data-feather="wifi"></i>Wi-Fi</li>
+            <li><i data-feather="map"></i>Passeio</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-tag card-tag-top">
+          <p>Promoção</p>
+        </div>
+        <div class="card-tag card-tag-bottom">
+          <p>R$ 1200,00</p>
+        </div>
+        <img class="card-image" src="img/miami.jpeg" alt="Miami">
+        <div class="card-content">
+          <h1>Pacote 10 dias em Miami Beach</h1>
+          <ul>
+            <li><i data-feather="coffee"></i>Café da manhã incluso</li>
+            <li><i data-feather="wifi"></i>Wi-Fi</li>
+            <li><i data-feather="map"></i>Passeio incluso</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-tag card-tag-top">
+          <p>Promoção</p>
+        </div>
+        <div class="card-tag card-tag-bottom">
+          <p>R$ 1400,00</p>
+        </div>
+        <img class="card-image" src="img/berlim.jpeg" alt="Berlim">
+        <div class="card-content">
+          <h1>Pacote 4 noites em Berlim</h1>
+          <ul>
+            <li><i data-feather="coffee"></i>Café da manhã incluso</li>
+            <li><i data-feather="wifi"></i>Wi-Fi</li>
+            <li><i data-feather="map"></i>Passeio</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-tag card-tag-top">
+          <p>Promoção</p>
+        </div>
+        <div class="card-tag card-tag-bottom">
+          <p>R$ 500</p>
+        </div>
+        <img class="card-image" src="img/fortaleza.jpg" alt="Fortaleza">
+        <div class="card-content">
+          <h1>7 dias em Fortaleza </h1>
+          <ul>
+            <li><i data-feather="coffee"></i>Café da manhã incluso</li>
+            <li><i data-feather="wifi"></i>Wi-Fi</li>
+            <li><i data-feather="map"></i>Passeio</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-tag card-tag-top">
+          <p>Promoção</p>
+        </div>
+        <div class="card-tag card-tag-bottom">
+          <p>R$ 200</p>
+        </div>
+        <img class="card-image" src="img/jeri.jpg" alt="jericoacoara">
+        <div class="card-content">
+          <h1>Pacote 14 dias em Jericoacoara</h1>
+          <ul>
+            <li><i data-feather="coffee"></i>Café da manhã incluso</li>
+            <li><i data-feather="wifi"></i>Wi-Fi</li>
+            <li><i data-feather="map"></i>Passeio de buggy</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-tag card-tag-top">
+          <p>Promoção</p>
+        </div>
+        <div class="card-tag card-tag-bottom">
+          <p>R$ 1200,00</p>
+        </div>
+        <img class="card-image" src="img/canada.jpg" alt="Canada">
+        <div class="card-content">
+          <h1>Pacote 14 dias em Moraine lake, Canada</h1>
+          <ul>
+            <li><i data-feather="coffee"></i>Café da manhã incluso</li>
+            <li><i data-feather="wifi"></i>Wi-Fi</li>
+            <li><i data-feather="map"></i>Passeio</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section  id="servicos" class="servicos">
+    <h1 class="servicos-titulo">Serviços</h1>
+    <div class="servicos-cards">
+      <div class="card">
+
+        <div class="card-content">
+          <h3>Tour guiados</h3>
+          <img src="https://images.pexels.com/photos/3783082/pexels-photo-3783082.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="350px">
+          
+        </div>
+        <div class="botao-container">
+          <button class="botao01">Saiba mais</button>
+        </div>
+      </div>
+
+      <div class="card">
+
+        <div class="card-content">
+          <h3>Fotográfia Profissional</h3>
+          <img src="https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  width="350px">
+          
+        </div>
+        <div class="botao-container">
+          <button class="botao01">Saiba mais</button>
+        </div>
+      </div>
+      
+      <div class="card">
+        <i data-feather="navigation"></i>
+        <div class="card-content">
+          <h3>Aluguel de Veículo</h3>
+          <img src="https://images.pexels.com/photos/276334/pexels-photo-276334.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="350px">
+          
+        </div>
+        <div class="botao-container">
+          <button class="botao01">Saiba mais</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="carousell" class="carousell">
+    
+        <!-- Controle das imagens -->
+        <div class="container-galeria">
+          
+          <!-- Controle de cada item da galeria -->
+          <div class="slides">
+              <!-- Botões que o usuário irá interagir com a galeria por padrão o primeiro slide será carregado(checked) -->
+              <input class="input" type="radio" name="slide" id="slide1" checked>
+              <input class="input" type="radio" name="slide" id="slide2">
+              <input class="input" type="radio" name="slide" id="slide3">
+              <input class="input" type="radio" name="slide" id="slide4">
+              <input class="input" type="radio" name="slide" id="slide5">
+  
+              <div class="slide pos1">
+                <img src="img/berlim.jpeg" alt="Deck com um homem observando o por sol">
+                <div class="slide-content">
+                  <p class="caption">Se você está procurando por uma nova aventura, nosso site de turismo é o lugar certo para começar. Oferecemos uma variedade de informações sobre destinos turísticos em todo o mundo</p>
+                </div>
+              </div>
+  
+              <div class="slide">
+                  <img src="img/bgh.jpg" alt="Árvore com por do sol">
+
+              </div>
+              <div class="slide">
+                  <img src="img/canada.jpg" alt="Casinha em um deck">
+              </div>
+              <div class="slide">
+                  <img src="img/jeri.jpg" alt="Jericoacoara">
+              </div>
+              <div class="slide">
+                  <img src="img/rj.jpeg" alt="Rio de janeiro">
+              </div>
+  
+          </div>
+          
+        </div>
+  
+      <div class="navegacao">
+          <!-- Controle de navegação do usuário 
+          Cada slide é identificado pelo (for) -->
+          <label class="b-navegacao" for="slide1"></label>
+          <label class="b-navegacao" for="slide2"></label>
+          <label class="b-navegacao" for="slide3"></label>
+          <label class="b-navegacao" for="slide4"></label>
+          <label class="b-navegacao" for="slide5"></label>
+      </div>
+      <h1 class="servicos-titulo">Destinos turísticos</h1>
+
+
+      <div class="container-info">
+
+        <h2 class="berlim">Berlim</h2>
+        <p>
+          Berlim, a capital vibrante da Alemanha, é uma mistura fascinante de história, arte e inovação. Testemunhe os vestígios do Muro de Berlim que dividia a cidade, visite monumentos emblemáticos como o Portão de Brandemburgo e o imponente Reichstag. Explore sua cena artística eclética, experimente a culinária local e mergulhe na rica cultura desta metrópole moderna.
+          </p>
+          <h2 class="veneza">Veneza</h2>
+        <p>
+          Veneza, uma cidade de sonhos erguida sobre as águas da lagoa Adriática, é um labirinto de canais e arquitetura deslumbrante. Passeie de gôndola pelos tranquilos canais, maravilhe-se com a arte renascentista na Piazza San Marco, e perca-se nas vielas estreitas descobrindo encantadoras lojas e cafés. Uma experiência única e romântica aguarda em cada esquina.
+        </p>
+
+
+        <h2 class="canada">Canadá</h2>
+        <p>
+          O Canadá, país de natureza exuberante, oferece paisagens majestosas e diversidade cultural. Explore as Montanhas Rochosas, admire a beleza das Cataratas do Niágara, e mergulhe na atmosfera cosmopolita de cidades como Toronto e Vancouver. Descubra uma nação rica em aventuras ao ar livre e hospitalidade calorosa.
+        </p>
+
+        <h2>Jericoacoara</h2>
+        <p>
+          Jericoacoara, conhecida por suas dunas, praias intocadas e atmosfera relaxante, é um paraíso escondido no nordeste do Brasil. Pratique windsurfe nas águas cristalinas, contemple o pôr do sol na famosa Duna do Pôr do Sol e aproveite a vibe tranquila e acolhedora dessa vila de pescadores.
+        </p>
+
+        <h2>Rio de Janeiro</h2>
+        <p>
+          O Rio de Janeiro é uma cidade vibrante e ensolarada, famosa pelas praias icônicas como Copacabana e Ipanema, além do majestoso Cristo Redentor. Explore a cultura pulsante, desfrute da música, da dança e da deliciosa culinária local. Uma cidade que respira alegria e beleza natural.
+        </p>
+      </div>
+
+  </section>
+  <section>
+    <div class="container">
+      <form action="#" method="post">
+        <h2>Formulário de Contato</h2>
+        <div class="input-group">
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name" required>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <div class="input-group">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <div class="input-group">
+          <label for="message">Mensagem:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <div class="input-group">
+          <button type="submit">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <p>© Viagens 2023 - Todos os direitos reservados</p>
+    <div class="social-media">
+      
+      <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></i></a>
+      <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></i></a>
+    </div>
+  </footer>
+
+
+  
+</body>
+
+</html>
