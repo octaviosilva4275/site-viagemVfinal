@@ -1,49 +1,75 @@
-Grand Tour
-Descrição: O Grand Tour é um site interativo que oferece pacotes turísticos, informações sobre destinos e serviços de viagem como tours guiados, aluguel de veículos e fotografia profissional. O site é projetado para proporcionar uma experiência de navegação fluida e atraente, apresentando promoções, destinos turísticos e serviços em destaque.
+# Grand Tour - Site de Turismo
 
-Funcionalidades
-Home Page: Exibição de informações sobre o destino Machu Picchu com opção de saber mais.
-Pacotes: Apresentação de pacotes turísticos com preços e benefícios, incluindo imagens de diferentes destinos como Paris, Miami, Berlim, Fortaleza, Jericoacoara e Canadá.
-Serviços: Informações sobre serviços como tours guiados, fotografia profissional e aluguel de veículos, com botão para saber mais sobre cada serviço.
-Galeria de Destinos: Uma galeria de imagens com controle de navegação interativo, destacando destinos como Berlim, Veneza, Canadá, Jericoacoara e Rio de Janeiro.
-Formulário de Contato: Formulário para o visitante enviar suas informações e mensagem.
-Tecnologias Utilizadas
-HTML5: Estruturação do conteúdo do site.
-CSS3: Estilização do layout e design responsivo.
-JavaScript/jQuery: Interatividade e animações, como o carrossel de imagens e a funcionalidade de navegação da galeria.
-Bootstrap: Framework utilizado para garantir a responsividade e funcionalidade de navegação.
-Instruções de Uso
-Clone o repositório:
+O **Grand Tour** é um site de turismo desenvolvido para promover pacotes de viagens, serviços relacionados e destinos turísticos ao redor do mundo. O site oferece uma experiência interativa com informações sobre destinos, pacotes turísticos e diversos serviços adicionais.
 
-bash
-Copiar código
-git clone https://github.com/seu-usuario/grand-tour.git
-Abra o arquivo index.html no seu navegador para visualizar o site.
+## Estrutura do Projeto
 
-Alterar informações:
+O site é composto por diversas seções, incluindo:
 
-Para editar pacotes e destinos, modifique as seções correspondentes no código HTML.
-As imagens podem ser substituídas pelas suas próprias, basta atualizar os links nas tags <img>.
-Estilos:
+- **Home**: Página inicial com uma introdução ao destino Machu Picchu e um convite para os usuários conhecerem mais sobre a viagem.
+- **Pacotes**: Exibe diferentes pacotes de viagens com preços e benefícios.
+- **Serviços**: Oferece uma variedade de serviços como tours guiados, fotografia profissional e aluguel de veículos.
+- **Destinos Turísticos**: Uma galeria de imagens com destinos populares, como Berlim, Veneza, Canadá, Jericoacoara e Rio de Janeiro.
+- **Contato**: Formulário de contato para os usuários entrarem em contato com a equipe do site.
 
-O arquivo styles/style.css contém as personalizações de estilo do site.
-Sinta-se à vontade para modificar a folha de estilos para personalizar as cores, fontes, layout e mais.
-Estrutura de Arquivos
-bash
-Copiar código
-/Grand-Tour
-  /img             # Imagens utilizadas no site
-  /styles          # Folhas de estilo CSS
-    - style.css    # Arquivo de estilos
-  index.html       # Página principal do site
-Contribuição
-Faça um fork do repositório.
-Crie uma nova branch para sua funcionalidade (git checkout -b feature/nome-da-funcionalidade).
-Faça as alterações e envie (git commit -am 'Adiciona nova funcionalidade').
-Envie para o repositório remoto (git push origin feature/nome-da-funcionalidade).
-Abra um pull request.
-Licença
-Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para mais detalhes.
+## Tecnologias Utilizadas
 
-Contato
-Se tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato pelo e-mail: contato@grandtour.com
+- **HTML5**: Estrutura básica da página.
+- **CSS3**: Estilização personalizada do layout e design responsivo.
+- **JavaScript/jQuery**: Interatividade, incluindo a inicialização do carousel e a navegação pelos pacotes.
+- **Bootstrap 4**: Framework para garantir que o design seja responsivo e compatível com diversos dispositivos.
+
+## Funcionalidades
+
+### 1. Navegação
+
+- Menu de navegação com links para **Home**, **Pacotes**, **Serviços** e **Destinos**.
+- Uso de `carousel` para exibir imagens de destinos turísticos.
+
+### 2. Pacotes
+
+Exibição de pacotes turísticos com:
+
+- Nome do pacote
+- Preço promocional
+- Benefícios inclusos como café da manhã, Wi-Fi e passeios.
+
+### 3. Serviços
+
+Oferece informações sobre serviços adicionais, como:
+
+- Tours guiados
+- Fotografia profissional
+- Aluguel de veículos
+
+### 4. Galeria de Destinos
+
+O site possui uma galeria com destinos turísticos destacados, cada um com uma descrição detalhada:
+
+- **Berlim**
+- **Veneza**
+- **Canadá**
+- **Jericoacoara**
+- **Rio de Janeiro**
+
+### 5. Formulário de Contato
+
+Um formulário simples para os usuários entrarem em contato, fornecendo:
+
+- Nome
+- E-mail
+- Mensagem
+
+### 6. Footer
+
+O footer inclui links para as redes sociais e uma mensagem de copyright.
+
+## Como Usar
+
+1. Clone este repositório ou faça o download dos arquivos.
+2. Abra o arquivo `index.html` em um navegador para visualizar o site.
+3. Personalize os textos, imagens e links conforme necessário.
+
+## Licença
+
+Este projeto é licenciado sob a [MIT License](LICENSE).
